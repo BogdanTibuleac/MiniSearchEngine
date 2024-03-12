@@ -1,0 +1,15 @@
+build setSimpluMap.txt
+getNumberOfKeywords
+getNumberOfDocuments
+getNumberOfKeywords D:/sd/curs/c7/cursmap.txt
+getNumberOfKeywords src/ro/usv/DemoMap.java
+getKeywordsOfDocument D:/sd/curs/c7/cursmap.txt
+getKeywordsOfDocument src/ro/usv/DemoMap.java
+getNumberOfDocuments Map
+getDocumentsOfKeyword Map
+printDetails
+search class
+search interfata
+cauta Map
+search Map
+stop

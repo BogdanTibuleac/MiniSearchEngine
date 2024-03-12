@@ -1,0 +1,58 @@
+build setSimpluMap.txt
+getNumberOfKeywords
+getNumberOfDocuments
+getNumberOfKeywords D:/sd/curs/c7/cursmap.txt
+getNumberOfKeywords src/ro/usv/DemoMap.java
+getKeywordsOfDocument D:/sd/curs/c7/cursmap.txt
+getKeywordsOfDocument src/ro/usv/DemoMap.java
+getNumberOfDocuments Map
+getDocumentsOfKeyword Map
+printDetails
+search class
+search interfata
+cauta Map
+search Map
+search interfata map
+search interfata +map
+search intefata -map
+search -class
+search interfata -map +new
+//----------------------------------
+clear
+build teste_build_rec stopwords-ro.txt
+getNumberOfDocuments
+getNumberOfKeywords
+search Inginerie
+setShortDocName true
+getDocumentsOfKeyword Inginerie
+getNumberOfDocuments Studentul
+search Babes
+search Babes Bolyai
+addDocument comenzi10.txt
+getNumberOfDocuments
+getKeywordsOfDocument comenzi10.txt
+getNumberOfKeywords comenzi10.txt
+getDocumentsOfKeyword interface
+deleteDocument comenzi10.txt
+getNumberOfDocuments
+getKeywordsOfDocument comenzi10.txt
+getDocumentsOfKeyword interface comparable
+deleteDocument comenzi10.txt
+undeleteDocument comenzi10.txt
+getNumberOfDocuments
+getKeywordsOfDocument comenzi10.txt
+getDocumentsOfKeyword inscris
+setShortDocName true
+search interface
+search programare
+search -java
+getDocumentsOfKeyword Politehnica
+printDetails
+getKeywordsOfDocument teste_build_rec\uni\arboriAVL.pdf
+getKeywordsOfDocument teste_build_rec\uni\motor.docx
+getKeywordsOfDocument teste_build_rec\uni\arboriRosuNegru.pptx
+getKeywordsOfDocument teste_build_rec\uni\Regulament_laborator.docx
+rename teste_build_rec\uni\studenti\Vasilescu.txt teste_build_rec\uni\studenti\VasilescuV.txt
+printDetails
+getNumberOfKeywords teste_build_rec\uni\studenti\VasilescuV.txt
+stop

@@ -1,0 +1,5 @@
+D:/sd/curs/c7/cursmap.txt
+Interfata Map asociaza fiecarei chei o valoare. Clase care o implementeaza: TreeMap, HashMap...
+src/ro/usv/DemoMap.java
+class DemoMap { private Map<Long, String> nomenclator = new TreeMap<>(); }
+

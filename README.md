@@ -1,9 +1,11 @@
 # MiniSearchEngine
 # Objective
-The goal of this project is to develop a Mini Search Engine that allows you to search for files on your computer based on specific words or queries following certain rules. While the underlying principles and data structures used in building the search engine enable easy extension to web search, the focus of this project is limited to files on your local computer. The program was created in IntelliJ IDEA.
+The goal of this project is to develop a Mini Search Engine that allows you to search for files on your computer based on specific words or queries following certain rules. While the underlying principles and data structures used in building the search engine enable easy extension to web search, the focus of this project is limited to files on your local computer. The program was created in IntelliJ IDEA. The program is designed to read a set of commands either from a file or directly from the user input.
+<br> What can be done next? An interface for the users, as the console is not very user-friendly. </br>
+
 
 # Overview
-Your Mini Search Engine is designed to search for information in the local file system and perform two crucial operations of a search engine:
+The Mini Search Engine is designed to search for information in the local file system and perform two crucial operations of a search engine:
 
 - Indexing: Loading information into the engine by:
 

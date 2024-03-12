@@ -5,13 +5,12 @@ The goal of this project is to develop a Mini Search Engine that allows you to s
 Overview
 Your Mini Search Engine is designed to search for information in the local file system and perform two crucial operations of a search engine:
 
-1. Indexing: Loading information into the engine by:
+- Indexing: Loading information into the engine by:
 
-Reading all files with a specific extension (e.g., txt, java, pdf, docx) from a directory structure starting from a root directory.
-Extracting lexical units (words) from each file, retaining only distinct words (keywords).
-Creating a mapping between each keyword and a data structure containing the names of all files (with paths) where that keyword appears.
-
-2. Searching: Allowing users to input various search queries and obtaining files (documents) that match those queries.
+  -Reading all files with a specific extension (e.g., txt, java, pdf, docx) from a directory structure starting from a root directory.
+  -Extracting lexical units (words) from each file, retaining only distinct words (keywords).
+  -Creating a mapping between each keyword and a data structure containing the names of all files (with paths) where that keyword appears.
+- Searching: Allowing users to input various search queries and obtaining files (documents) that match those queries.
 
 Testing
 The search engine will be tested by a web-based automated testing application for files with the following extensions:
